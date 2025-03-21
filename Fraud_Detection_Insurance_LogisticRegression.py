@@ -15,7 +15,7 @@ data = pd.DataFrame({
     'income': np.random.randint(20000, 100000, data_size),
     'policy_amount': np.random.randint(5000, 50000, data_size),
     'num_claims': np.random.randint(0, 5, data_size),
-    'fraudulent': np.random.choice([0, 1], size=data_size, p=[0.7, 0.3])  # 40% de fraude
+    'fraudulent': np.random.choice([0, 1], size=data_size, p=[0.7, 0.3])  
 })
 
 # Save data
