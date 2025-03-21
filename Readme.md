@@ -1,0 +1,1 @@
+This project uses logistic regression to predict fraud detection in the insurance sector.
